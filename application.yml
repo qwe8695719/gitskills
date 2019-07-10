@@ -1,0 +1,14 @@
+spring:
+  profires:
+    active:
+    - dev
+---
+spring:
+  profires: dev
+  application:
+    name: springcloud-config-dev
+---
+spring:
+  profires: test
+  application:
+    name: springcloud-config-test
